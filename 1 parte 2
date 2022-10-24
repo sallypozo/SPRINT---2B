@@ -1,1 +1,11 @@
-
+  promedio = int(input('¿Cuál es tu promedio?\n'))
+if promedio <= 5:
+	print('Suspendido.')
+elif promedio <=6  and promedio < 7:
+	print('aprobado.')
+elif promedio == 7 and promedio <=9 :
+	print('Notable.')
+elif promedio > 9 and promedio <= 10:
+	print('Excelente.')
+else:
+	print('Nota no válida.')
