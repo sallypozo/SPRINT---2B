@@ -1,1 +1,9 @@
+resultado = int(input("Ingrese tu nombre: "))
+n_repetir = int(input("Ingrese un número: "))
+a=[resultado]
 
+for v in a:
+    l = [v] * n_repetir
+    resultado = resultado + l
+
+print(resultado) # ['c1', 'c1', 'c1', 'c1', 'c2', 'c2', 'c2', 'c2', 'c3', 'c3', 'c3', 'c3']
